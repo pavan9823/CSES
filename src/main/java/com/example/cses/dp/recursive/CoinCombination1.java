@@ -1,4 +1,4 @@
-package com.example.cses.dp;
+package com.example.cses.dp.recursive;
 
 import java.util.Scanner;
 

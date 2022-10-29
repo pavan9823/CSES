@@ -1,4 +1,4 @@
-package com.example.cses.dp.recursive;
+package com.example.cses.dp.iterative;
 
 import java.util.Scanner;
 
@@ -17,7 +17,8 @@ public class MinimizingCoins {
     public static int minimizingCoins(int[] coins,int amount){
         int dp[] = new int[amount + 1];
 
-        // Base case (If given value V is 0)
+        // Base case (If given value amount
+        // is 0)
         dp[0] = 0;
 
         // Initialize all table values as Infinite
@@ -25,7 +26,7 @@ public class MinimizingCoins {
             dp[i] = Integer.MAX_VALUE;
 
         // Compute minimum coins required for all
-        // values from 1 to V
+        // values from 1 to amount
         for (int i = 1; i <= amount; i++)
         {
             // Go through all coins smaller than i

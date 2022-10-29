@@ -1,4 +1,4 @@
-package com.example.cses.dp.recursive;
+package com.example.cses.dp.iterative;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class MaximizingCoins {
             for (int i = 1; i <= amount; i++)
                 dp[i] = Integer.MIN_VALUE;
 
-            // Compute minimum coins required for all
+            // Compute maximum coins required for all
             // values from 1 to V
             for (int i = 1; i <= amount; i++)
             {

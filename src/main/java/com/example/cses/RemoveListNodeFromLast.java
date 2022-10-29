@@ -1,2 +1,4 @@
-package com.example.cses;public class RemoveListNodeFromeLast {
+package com.example.cses;
+
+public class RemoveListNodeFromLast {
 }
